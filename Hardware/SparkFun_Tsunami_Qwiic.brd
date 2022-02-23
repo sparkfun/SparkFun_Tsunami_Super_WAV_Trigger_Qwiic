@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -80,7 +80,7 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
-<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="yes"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
 <layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
@@ -19429,10 +19429,10 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$93" library="output2" package="LRCK24" value="" x="36.835078125" y="40.15231875" smashed="yes" rot="MR270"/>
 <element name="U$94" library="output2" package="CIPO23" value="" x="39.375078125" y="40.15231875" smashed="yes" rot="MR270"/>
 <element name="U$95" library="output2" package="APDM26" value="" x="31.755078125" y="40.15231875" smashed="yes" rot="MR270"/>
-<element name="U8" library="SparkFun-IC-Logic" package="SOT23-5" value="SN74AHC1G125" x="26.416" y="59.944" smashed="yes">
+<element name="U8" library="SparkFun-IC-Logic" package="SOT23-5" value="74AHC1G125W5-7" x="26.416" y="59.944" smashed="yes">
 <attribute name="NAME" x="24.511" y="59.944" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="IC-11920" x="26.416" y="59.944" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VALUE" x="28.956" y="59.944" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="PROD_ID" value="IC-16588" x="26.416" y="59.944" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" value="74AHC1G125W5-7" x="28.956" y="59.944" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 </element>
 <element name="U5" library="SparkFun-IC-Power" package="SOT223" value="LM1117" x="53.34" y="40.386" smashed="yes" rot="R270">
 <attribute name="NAME" x="57.8485" y="41.2115" size="0.4064" layer="25" rot="R270"/>

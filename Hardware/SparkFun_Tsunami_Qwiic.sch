@@ -27558,13 +27558,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13672"&gt;SparkFun SAMD21 Dev Breakout&lt;/a&gt; (DEV-13672)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12898"&gt;SparkFun MIDI Shield&lt;/a&gt; (DEV-12898)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12071"&gt;SparkFun WiFi Shield - CC3000&lt;/a&gt; (DEV-12071)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/18159"&gt;SparkFun Tsunami Super WAV Trigger (Qwiic)&lt;/a&gt; (DEV-18159)&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G2" symbol="POWER_CONSORT" x="7.62" y="0"/>
 <gate name="G$1" symbol="GATE_BUFFER_WITH_ENABLE" x="-10.16" y="0"/>
 </gates>
 <devices>
-<device name="D" package="SOT23-5">
+<device name="SN74AHC1G125DBVR" package="SOT23-5">
 <connects>
 <connect gate="G$1" pin="!EN" pad="1"/>
 <connect gate="G$1" pin="A" pad="2"/>
@@ -27575,7 +27576,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technologies>
 <technology name="AHC">
 <attribute name="PROD_ID" value="IC-11920" constant="no"/>
-<attribute name="VALUE" value="SN74AHC1G125" constant="no"/>
+<attribute name="VALUE" value="SN74AHC1G125DBVR" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="74AHC1G125W5-7" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="!EN" pad="1"/>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="Y" pad="4"/>
+<connect gate="G2" pin="P$V+" pad="5"/>
+<connect gate="G2" pin="P$V-" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-16588" constant="no"/>
+<attribute name="VALUE" value="74AHC1G125W5-7" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -28224,7 +28240,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" deviceset="V_USB" device="" value="V_USB"/>
 <part name="SUPPLY16" library="SparkFun-PowerSymbols" deviceset="V_USB" device="" value="V_USB"/>
 <part name="SUPPLY17" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
-<part name="U8" library="SparkFun-IC-Logic" deviceset="74*1G125" device="D" technology="AHC" value="SN74AHC1G125"/>
+<part name="U8" library="SparkFun-IC-Logic" deviceset="74*1G125" device="74AHC1G125W5-7" value="74AHC1G125W5-7"/>
 <part name="SUPPLY19" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="DGND" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="DGND" device=""/>
