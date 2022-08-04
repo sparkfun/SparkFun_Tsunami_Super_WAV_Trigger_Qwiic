@@ -27414,6 +27414,29 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
+<package name="CRYSTAL-SMD-3.2X2.5MM_GEYER_12.60421">
+<description>&lt;h3&gt;3.2 x 2.5mm SMD Crystal Package&lt;/h3&gt;
+&lt;p&gt;Example: &lt;a href="http://www.digikey.com/product-search/en?keywords=SER3627TR-ND"&gt;SX-32S&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.127" layer="51"/>
+<wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-1.25" x2="-1.6" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="-0.4" y1="1.504" x2="0.4" y2="1.504" width="0.2032" layer="21"/>
+<wire x1="-1.854" y1="-0.15" x2="-1.854" y2="0.15" width="0.2032" layer="21"/>
+<wire x1="1.854" y1="0.15" x2="1.854" y2="-0.15" width="0.2032" layer="21"/>
+<wire x1="0.4" y1="-1.504" x2="-0.4" y2="-1.504" width="0.2032" layer="21"/>
+<rectangle x1="-1.6" y1="0.35" x2="-0.6" y2="1.15" layer="51"/>
+<rectangle x1="0.6" y1="-1.15" x2="1.6" y2="-0.35" layer="51" rot="R180"/>
+<rectangle x1="-1.6" y1="-1.15" x2="-0.6" y2="-0.35" layer="51"/>
+<rectangle x1="0.6" y1="0.35" x2="1.6" y2="1.15" layer="51" rot="R180"/>
+<smd name="1" x="-1.15" y="-0.9" dx="1.3" dy="1.1" layer="1" rot="R180"/>
+<smd name="2" x="1.15" y="-0.9" dx="1.3" dy="1.1" layer="1"/>
+<smd name="3" x="1.15" y="0.9" dx="1.3" dy="1.1" layer="1"/>
+<smd name="4" x="-1.15" y="0.9" dx="1.3" dy="1.1" layer="1" rot="R180"/>
+<text x="0" y="1.524" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+<circle x="-2.286" y="-1.143" radius="0.127" width="0.4064" layer="21"/>
+</package>
 <package name="CRYSTAL-OSC-SMD-5X3">
 <wire x1="-0.6" y1="1.6" x2="0.6" y2="1.6" width="0.2032" layer="21"/>
 <wire x1="2.5" y1="0.3" x2="2.5" y2="-0.3" width="0.2032" layer="21"/>
@@ -27461,7 +27484,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <gate name="G$1" symbol="CRYSTAL-GND-1" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CRYSTAL-OSC-SMD-5X3">
+<device name="5X3.2" package="CRYSTAL-OSC-SMD-5X3">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="3"/>
@@ -27473,6 +27496,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MFR" value="txc" constant="no"/>
 <attribute name="MFRPART" value="7B-11.2896MAAE-T" constant="no"/>
 <attribute name="PROD_ID" value="XTAL-13463" constant="no"/>
+<attribute name="VALUE" value="11.2896 MHz" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3.2X2.5" package="CRYSTAL-SMD-3.2X2.5MM_GEYER_12.60421">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="3" pad="2 4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MFR" value="GEYER" constant="no"/>
+<attribute name="MODEL" value="KX-7T" constant="no"/>
+<attribute name="MRFPART" value="12.60421" constant="no"/>
+<attribute name="PROD_ID" value="XTAL-16991" constant="no"/>
 <attribute name="VALUE" value="11.2896 MHz" constant="no"/>
 </technology>
 </technologies>
@@ -28060,7 +28099,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R2" library="SparkFun-Resistors" deviceset="1MOHM" device="-0603-1/4W-5%" value="1M"/>
 <part name="J10" library="SparkFun-Connectors" deviceset="CONN_08X2" device="_NOSILK" value="TRIG2"/>
 <part name="J11" library="SparkFun-Connectors" deviceset="CONN_08X2" device="_NOSILK" value="TRIG1"/>
-<part name="Y1" library="SparkFun-Clocks" deviceset="CRYSTAL-11.2896" device="" value="11.2896 MHz"/>
+<part name="Y1" library="SparkFun-Clocks" deviceset="CRYSTAL-11.2896" device="3.2X2.5" value="11.2896 MHz"/>
 <part name="C37" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
 <part name="C38" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402T-16V-10%" value="1.0uF"/>
 <part name="C31" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
@@ -28259,7 +28298,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <plain>
 <wire x1="431.8" y1="88.9" x2="330.2" y2="88.9" width="0.1524" layer="97" style="shortdash"/>
 <text x="348.996" y="11.684" size="1.778" layer="94" font="vector">Jamie Robertson, Byron Jacquot</text>
-<text x="421.64" y="7.62" size="2.54" layer="94" font="vector">V21</text>
+<text x="421.64" y="7.62" size="2.54" layer="94" font="vector">V22</text>
 <text x="244.348" y="262.128" size="1.778" layer="97" font="vector">Near each VDDCORE pin</text>
 <text x="211.328" y="262.128" size="1.778" layer="97" font="vector">Near each VDDIO pin</text>
 <text x="170.688" y="241.808" size="1.778" layer="97" font="vector">Near
