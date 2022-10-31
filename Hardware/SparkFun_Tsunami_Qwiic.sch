@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -27980,7 +27980,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 </classes>
 <parts>
-<part name="U3" library="SparkFun-IC-Microcontroller" deviceset="ATSAMS70NXXA-AN" device="" value="ATSAMS70N20A-AN"/>
+<part name="U3" library="SparkFun-IC-Microcontroller" deviceset="ATSAMS70NXXA-AN" device="" value="ATSAMS70NXXA-AN"/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LEDGER" device=""/>
 <part name="C9" library="SparkFun-Capacitors" deviceset="12PF" device="-0402T-50V-5%" value="12pF"/>
 <part name="C7" library="SparkFun-Capacitors" deviceset="12PF" device="-0402T-50V-5%" value="12pF"/>
@@ -28326,6 +28326,11 @@ From Tsunami.</text>
 <wire x1="399.034" y1="248.666" x2="404.622" y2="258.064" width="0.2032" layer="97" style="shortdash"/>
 <text x="396.748" y="228.6" size="1.778" layer="97" font="vector">I2C Address: 0x13
 (software configurable)</text>
+<text x="213.36" y="149.86" size="1.27" layer="97">Note U3 is populated as follows:
+
+WIG-20636 (25-voice): ATSAMS70N19A-AN 
+
+WIG-18159 (32-voice): ATSAMS70N20A-AN</text>
 </plain>
 <instances>
 <instance part="U3" gate="G$1" x="231.14" y="137.16" smashed="yes">

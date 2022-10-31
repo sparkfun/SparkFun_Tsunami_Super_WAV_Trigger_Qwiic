@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -80,7 +80,7 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
-<layer number="100" name="Muster" color="7" fill="1" visible="no" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
 <layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
@@ -18451,7 +18451,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 </pass>
 </autorouter>
 <elements>
-<element name="U3" library="SparkFun-IC-Microcontroller" package="LQFP100" value="ATSAMS70N20A-AN" x="26.67" y="20.32" smashed="yes" rot="R270">
+<element name="U3" library="SparkFun-IC-Microcontroller" package="LQFP100" value="ATSAMS70NXXA-AN" x="26.67" y="20.32" smashed="yes" rot="R270">
 <attribute name="NAME" x="35.7901" y="26.715" size="1.27" layer="25" rot="R270"/>
 <attribute name="PROD_ID" value="IC-13238" x="26.67" y="20.32" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="29.4701" y="23.5001" size="1.27" layer="27" rot="R270"/>
