@@ -30,7 +30,7 @@ Documentation
 * **[Official Downloads Page](http://robertsonics.com/tsunami-downloads/)** - Download supporting files, including firmware updates and the configuration utility.
 * **[SparkFun Tsunami Qwiic Arduino Library](https://github.com/sparkfun/SparkFun_Tsunami_Qwiic_Arduino_Library)** - Arduino Library for I2C control via Qwiic cable.
 * **[Tsunami Arduino Serial Library](https://github.com/robertsonics/Tsunami-Arduino-Serial-Library)** - Arduino Library for Serial interface control via RX/TX.
-* **[SparkFun Fritzing repo]([https://github.com/sparkfun/Fritzing_Parts](https://github.com/sparkfun/Fritzing_Parts/blob/main/products/13810_Tsunami_Super_WAV_Trigger.fzpz))** - Fritzing diagrams for SparkFun products.
+* **[SparkFun Fritzing repo]([https://github.com/sparkfun/Fritzing_Parts](https://github.com/sparkfun/Fritzing_Parts/blob/main/products/13810_Tsunami_Super_WAV_Trigger.fzpz)** - Fritzing diagrams for SparkFun products.
 * **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products.
 
 Product Versions
