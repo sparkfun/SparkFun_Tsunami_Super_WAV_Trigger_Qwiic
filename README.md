@@ -4,7 +4,7 @@ SparkFun Tsunami Super WAV Trigger (Qwiic)
 <table class="table table-hover table-striped table-bordered">
   <tr align="center">
    <td><a href="https://www.sparkfun.com/products/18159"><img src="https://cdn.sparkfun.com/assets/parts/1/7/4/8/8/18159-SparkFun_Tsunami_Super_WAV_Trigger__Qwiic_-01.jpg" alt="SparkFun Tsunami Super WAV Trigger (Qwiic) -32 Voices"></a></td>
-   <td><a href="https://www.sparkfun.com/products/20636"><img src="https://cdn.sparkfun.com//assets/parts/2/0/4/6/9/20636-_WIG_Tsunami_Super_WAV_Trigger-_01.jpg" alt="SparkFun Tsunami Super WAV Trigger (Qwiic) - 25 Voices"></a></td>
+   <td><a href="https://www.sparkfun.com/products/20636"><img src="https://cdn.sparkfun.com//assets/parts/2/0/4/6/9/20636-_WIG_Tsunami_Super_WAV_Trigger01.jpg" alt="SparkFun Tsunami Super WAV Trigger (Qwiic) - 25 Voices"></a></td>
   </tr>
   <tr align="center">
    <td><i>SparkFun Tsunami Super WAV Trigger (Qwiic)<br /> - 32 Voices <br />[ <a href="https://www.sparkfun.com/products/18159">WIG-18159</a> ]</i></td>
@@ -26,11 +26,11 @@ Repository Contents
 Documentation
 --------------
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/tsunami-super-wav-trigger-hookup-guide)** - Basic hookup guide for Tsunami Qwiic.
-* **[Official User Guide](http://robertsonics.com/tsunami-user-guide/)** - More detailed user guide, hosted by Robertsonics.
-* **[Official Downloads Page](http://robertsonics.com/tsunami-downloads/)** - Download supporting files, including firmware updates and the configuration utility.
+* **[Official User Guide](https://cdn.sparkfun.com/assets/e/9/9/8/e/Tsunami_UserGuide_20230114.pdf)** - More detailed user guide, written by Robertsonics.
+* **[Official Downloads Page](http://robertsonics.com/downloads/)** - Download supporting files, including firmware updates and the configuration utility.
 * **[SparkFun Tsunami Qwiic Arduino Library](https://github.com/sparkfun/SparkFun_Tsunami_Qwiic_Arduino_Library)** - Arduino Library for I2C control via Qwiic cable.
 * **[Tsunami Arduino Serial Library](https://github.com/robertsonics/Tsunami-Arduino-Serial-Library)** - Arduino Library for Serial interface control via RX/TX.
-* **[SparkFun Fritzing repo]([https://github.com/sparkfun/Fritzing_Parts](https://github.com/sparkfun/Fritzing_Parts/blob/main/products/13810_Tsunami_Super_WAV_Trigger.fzpz)** - Fritzing diagrams for SparkFun products.
+* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts/blob/main/products/13810_Tsunami_Super_WAV_Trigger.fzpz)** - Fritzing diagrams for SparkFun products.
 * **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products.
 
 Product Versions
